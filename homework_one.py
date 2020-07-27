@@ -1,6 +1,6 @@
 # Написати програму, що вирішує виділені овалами задачі. Старатись кожну задачу описати функцією, яку нижче викликати
 # 1163
-
+#git commit test
 
 def watermelon(total, first_day_diff, second_day_diff):
     result = total - (total / first_day_diff) - ((total / first_day_diff) + second_day_diff)
